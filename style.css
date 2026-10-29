@@ -576,6 +576,17 @@ textarea:focus-visible {
 }
 
 @media (max-width: 440px) {
+  .site-header {
+    margin: 0;
+    padding: 0;
+  }
+  .logo {
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+  }
+
   .detail-hero {
     grid-template-columns: 1fr;
   }
@@ -588,6 +599,13 @@ textarea:focus-visible {
 
   .hero-meta {
     gap: 0.45rem;
+  }
+  .site-footer {
+    display: block;
+    padding: 2.5rem 5%;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    align-items: center;
   }
 }
 
