@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="I Am Legend movie details, trailer, cast, rating, and comments."
+    />
+    <title>I Am Legend | Movie Review Center</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="movie.js" defer></script>
+  </head>
+  <body data-movie-id="i-am-legend">
+    <header class="site-header">
+      <a class="logo" href="index.html" aria-label="Movie Review Center home">
+        <img style="height: 28px" src="./gci-logo.png" alt="" />
+        GCI Movie Review
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#movies">Movies</a>
+      </nav>
+    </header>
+    <main class="detail-main">
+      <p class="breadcrumb">
+        <a href="index.html#movies">Movies</a> / I Am Legend
+      </p>
+      <section class="detail-hero" aria-labelledby="movie-title">
+        <img
+          class="detail-poster"
+          src="i am  legend.jpg"
+          alt="I Am Legend movie poster"
+        />
+        <div class="detail-copy">
+          <p class="eyebrow">Movie details</p>
+          <h1 id="movie-title">I Am Legend</h1>
+          <div class="hero-meta">
+            <span>2007</span><span>·</span><span>Sci-Fi / Thriller</span
+            ><span class="detail-rating">Rating: 7.6 / 10</span>
+          </div>
+          <p>
+            Years after a virus devastates humanity, virologist Robert Neville
+            lives alone in New York City with his dog. He searches for a cure
+            while trying to survive the infected who emerge after dark.
+          </p>
+          <dl class="detail-facts">
+            <div>
+              <dt>Director</dt>
+              <dd>Francis Lawrence</dd>
+            </div>
+            <div>
+              <dt>Cast</dt>
+              <dd>
+                Will Smith, Alice Braga, Charlie Tahan, Salli
+                Richardson-Whitfield
+              </dd>
+            </div>
+            <div>
+              <dt>Genre</dt>
+              <dd>Action, science fiction, thriller</dd>
+            </div>
+            <div>
+              <dt>Rating</dt>
+              <dd class="detail-rating">7.6 / 10</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+      <section class="detail-section" aria-labelledby="trailer-title">
+        <h2 id="trailer-title">Official trailer</h2>
+        <div class="trailer-frame">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/dtKMEAXyPkg"
+            title="I Am Legend official trailer"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section class="detail-section" aria-labelledby="comments-title">
+        <h2 id="comments-title">Comments</h2>
+        <form class="comment-form" id="comment-form">
+          <label for="comment-name"
+            >Name<input
+              id="comment-name"
+              name="name"
+              maxlength="50"
+              autocomplete="name"
+              required
+          /></label>
+          <label for="comment-text"
+            >Your comment<textarea
+              id="comment-text"
+              name="comment"
+              maxlength="600"
+              required
+            ></textarea>
+          </label>
+          <button type="submit">Post comment</button>
+        </form>
+        <p class="comment-status" id="comment-status" aria-live="polite"></p>
+        <div class="comment-list" id="comment-list" aria-live="polite"></div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <a class="logo" href="index.html" aria-label="Movie Review Center home">
+        <img style="height: 28px" src="./gci-logo.png" alt="" />
+        GCI Movie Review
+      </a>
+      <p class="copyright">
+        © <span id="current-year">2026</span> Movie Review website by Government
+        College Ibadan Byte Busters
+      </p>
+      <p>Film stories, reviews, and conversations.</p>
+    </footer>
+  </body>
+</html>

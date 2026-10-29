@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Poor Things movie details, trailer, cast, rating, and comments."
+    />
+    <title>Poor Things | Movie Review Center</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="movie.js" defer></script>
+  </head>
+  <body data-movie-id="poor-things">
+    <header class="site-header">
+      <a class="logo" href="index.html" aria-label="Movie Review Center home">
+        <img style="height: 28px" src="./gci-logo.png" alt="" />
+        GCI Movie Review
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#movies">Movies</a>
+      </nav>
+    </header>
+    <main class="detail-main">
+      <p class="breadcrumb">
+        <a href="index.html#movies">Movies</a> / Poor Things
+      </p>
+      <section class="detail-hero" aria-labelledby="movie-title">
+        <img
+          class="detail-poster"
+          src="poor thing.jpg"
+          alt="Poor Things movie poster"
+        />
+        <div class="detail-copy">
+          <p class="eyebrow">Movie details</p>
+          <h1 id="movie-title">Poor Things</h1>
+          <div class="hero-meta">
+            <span>2023</span><span>·</span><span>Comedy / Drama</span
+            ><span class="detail-rating">Rating: 8.5 / 10</span>
+          </div>
+          <p>
+            Brought back to life by the unorthodox Dr. Godwin Baxter, Bella
+            Baxter sets out to experience the world. Her travels bring new
+            independence, unexpected discoveries, and a growing understanding of
+            the people around her.
+          </p>
+          <dl class="detail-facts">
+            <div>
+              <dt>Director</dt>
+              <dd>Yorgos Lanthimos</dd>
+            </div>
+            <div>
+              <dt>Cast</dt>
+              <dd>
+                Emma Stone, Mark Ruffalo, Willem Dafoe, Ramy Youssef,
+                Christopher Abbott
+              </dd>
+            </div>
+            <div>
+              <dt>Genre</dt>
+              <dd>Comedy, drama, fantasy</dd>
+            </div>
+            <div>
+              <dt>Rating</dt>
+              <dd class="detail-rating">8.5 / 10</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+      <section class="detail-section" aria-labelledby="trailer-title">
+        <h2 id="trailer-title">Official trailer</h2>
+        <div class="trailer-frame">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/RlbR5N6veqw"
+            title="Poor Things official trailer"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section class="detail-section" aria-labelledby="comments-title">
+        <h2 id="comments-title">Comments</h2>
+        <form class="comment-form" id="comment-form">
+          <label for="comment-name"
+            >Name<input
+              id="comment-name"
+              name="name"
+              maxlength="50"
+              autocomplete="name"
+              required
+          /></label>
+          <label for="comment-text"
+            >Your comment<textarea
+              id="comment-text"
+              name="comment"
+              maxlength="600"
+              required
+            ></textarea>
+          </label>
+          <button type="submit">Post comment</button>
+        </form>
+        <p class="comment-status" id="comment-status" aria-live="polite"></p>
+        <div class="comment-list" id="comment-list" aria-live="polite"></div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <a class="logo" href="index.html" aria-label="Movie Review Center home">
+        <img style="height: 28px" src="./gci-logo.png" alt="" />
+        GCI Movie Review
+      </a>
+      <p class="copyright">
+        © <span id="current-year">2026</span> Movie Review website by Government
+        College Ibadan Byte Busters
+      </p>
+      <p>Film stories, reviews, and conversations.</p>
+    </footer>
+  </body>
+</html>

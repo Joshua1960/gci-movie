@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Discover film reviews, ratings, trailers, and cast information at Movie Review Center."
+    />
+    <title>GCI Movie Review | Discover your next movie</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="movie.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="index.html" aria-label="Movie Review Center home">
+        <img style="height: 28px" src="./gci-logo.png" alt="" />
+        GCI Movie Review
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#movies">Movies</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="eyebrow">GCI Movie of the Day</p>
+          <h1 id="hero-title">Dune: Part Two</h1>
+          <div class="hero-meta">
+            <span>2024</span><span aria-hidden="true">·</span>
+            <span>Sci-Fi / Adventure</span><span class="rating">8.8 / 10</span>
+          </div>
+          <p>
+            Paul Atreides unites with Chani and the Fremen while seeking
+            vengeance against the conspirators who destroyed his family.
+          </p>
+          <a class="button-link" href="dune-part-two.html">Explore the Movie</a>
+        </div>
+      </section>
+
+      <section
+        class="catalog section-wrap"
+        id="movies"
+        aria-labelledby="movies-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Find your next favorite</p>
+            <h2 id="movies-title">Explore movies</h2>
+          </div>
+          <p class="search-status" id="search-status" aria-live="polite"></p>
+        </div>
+        <div class="movie-grid">
+          <article
+            class="movie-card"
+            data-search="dune part two science fiction adventure"
+          >
+            <a
+              class="movie-poster-link"
+              href="dune-part-two.html"
+              aria-label="Dune: Part Two details"
+            >
+              <img
+                class="movie-poster"
+                src="Dune.jpg"
+                alt="Dune: Part Two movie poster"
+                loading="lazy"
+              />
+            </a>
+            <div class="movie-info">
+              <h3><a href="dune-part-two.html">Dune: Part Two</a></h3>
+              <p class="year">2024 · Sci-Fi / Adventure</p>
+              <p>
+                Paul Atreides joins the Fremen and faces the destiny that could
+                reshape the universe.
+              </p>
+            </div>
+          </article>
+          <article
+            class="movie-card"
+            data-search="oppenheimer biography drama history"
+          >
+            <a
+              class="movie-poster-link"
+              href="oppenheimer.html"
+              aria-label="Oppenheimer details"
+            >
+              <img
+                class="movie-poster"
+                src="Oppenheimer_(film).jpg"
+                alt="Oppenheimer movie poster"
+                loading="lazy"
+              />
+            </a>
+            <div class="movie-info">
+              <h3><a href="oppenheimer.html">Oppenheimer</a></h3>
+              <p class="year">2023 · Biography / Drama</p>
+              <p>
+                The story of J. Robert Oppenheimer and the scientific effort to
+                build the atomic bomb.
+              </p>
+            </div>
+          </article>
+          <article
+            class="movie-card"
+            data-search="the batman action crime drama"
+          >
+            <a
+              class="movie-poster-link"
+              href="the-batman.html"
+              aria-label="The Batman details"
+            >
+              <img
+                class="movie-poster"
+                src="batman.jpg"
+                alt="The Batman movie poster"
+                loading="lazy"
+              />
+            </a>
+            <div class="movie-info">
+              <h3><a href="the-batman.html">The Batman</a></h3>
+              <p class="year">2022 · Action / Crime</p>
+              <p>
+                Batman investigates a series of killings that expose corruption
+                across Gotham City.
+              </p>
+            </div>
+          </article>
+          <article
+            class="movie-card"
+            data-search="everything everywhere all at once sci-fi comedy drama"
+          >
+            <a
+              class="movie-poster-link"
+              href="everything-everywhere-all-at-once.html"
+              aria-label="Everything Everywhere All at Once details"
+            >
+              <img
+                class="movie-poster"
+                src="everthing everywhere.jpg"
+                alt="Everything Everywhere All at Once movie poster"
+                loading="lazy"
+              />
+            </a>
+            <div class="movie-info">
+              <h3>
+                <a href="everything-everywhere-all-at-once.html"
+                  >Everything Everywhere All at Once</a
+                >
+              </h3>
+              <p class="year">2022 · Sci-Fi / Comedy</p>
+              <p>
+                An overwhelmed laundromat owner discovers she may be the key to
+                saving the multiverse.
+              </p>
+            </div>
+          </article>
+          <article
+            class="movie-card"
+            data-search="poor things comedy drama fantasy"
+          >
+            <a
+              class="movie-poster-link"
+              href="poor-things.html"
+              aria-label="Poor Things details"
+            >
+              <img
+                class="movie-poster"
+                src="poor thing.jpg"
+                alt="Poor Things movie poster"
+                loading="lazy"
+              />
+            </a>
+            <div class="movie-info">
+              <h3><a href="poor-things.html">Poor Things</a></h3>
+              <p class="year">2023 · Comedy / Drama</p>
+              <p>
+                Bella Baxter sets out to discover the world and herself in this
+                fantastical story.
+              </p>
+            </div>
+          </article>
+          <article
+            class="movie-card"
+            data-search="spider-man across spider-verse animation action"
+          >
+            <a
+              class="movie-poster-link"
+              href="spider-man-across-the-spider-verse.html"
+              aria-label="Spider-Man: Across the Spider-Verse details"
+            >
+              <img
+                class="movie-poster"
+                src="spider-man.jpg"
+                alt="Spider-Man: Across the Spider-Verse movie poster"
+                loading="lazy"
+              />
+            </a>
+            <div class="movie-info">
+              <h3>
+                <a href="spider-man-across-the-spider-verse.html"
+                  >Spider-Man: Across the Spider-Verse</a
+                >
+              </h3>
+              <p class="year">2023 · Animation / Action</p>
+              <p>
+                Miles Morales travels across the Spider-Verse and meets a team
+                of Spider-People.
+              </p>
+            </div>
+          </article>
+          <article
+            class="movie-card"
+            data-search="killers of the flower moon crime drama history"
+          >
+            <a
+              class="movie-poster-link"
+              href="killers-of-the-flower-moon.html"
+              aria-label="Killers of the Flower Moon details"
+            >
+              <img
+                class="movie-poster"
+                src="killers.jpg"
+                alt="Killers of the Flower Moon movie poster"
+                loading="lazy"
+              />
+            </a>
+            <div class="movie-info">
+              <h3>
+                <a href="killers-of-the-flower-moon.html"
+                  >Killers of the Flower Moon</a
+                >
+              </h3>
+              <p class="year">2023 · Crime / Drama</p>
+              <p>
+                An investigation into murders in the Osage Nation reveals a
+                conspiracy driven by greed.
+              </p>
+            </div>
+          </article>
+          <article
+            class="movie-card"
+            data-search="i am legend action science fiction thriller"
+          >
+            <a
+              class="movie-poster-link"
+              href="i-am-legend.html"
+              aria-label="I Am Legend details"
+            >
+              <img
+                class="movie-poster"
+                src="i am  legend.jpg"
+                alt="I Am Legend movie poster"
+                loading="lazy"
+              />
+            </a>
+            <div class="movie-info">
+              <h3><a href="i-am-legend.html">I Am Legend</a></h3>
+              <p class="year">2007 · Sci-Fi / Thriller</p>
+              <p>
+                A scientist searches for a cure in a deserted New York City
+                after a devastating outbreak.
+              </p>
+            </div>
+          </article>
+        </div>
+        <p class="empty-state" id="empty-state" hidden>
+          No movies match your search.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="logo" href="index.html" aria-label="Movie Review Center home">
+        <img style="height: 28px" src="./gci-logo.png" alt="" />
+        GCI Movie Review
+      </a>
+      <p class="copyright">
+        © <span id="current-year">2026</span> Movie Review website by Government
+        College Ibadan Byte Busters
+      </p>
+      <p>Film stories, reviews, and conversations.</p>
+    </footer>
+  </body>
+</html>
